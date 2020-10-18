@@ -1,3 +1,6 @@
 private int sum(int a,int b) {
+	if(a + b > Integer.MAX){
+	     throw new RuntimeException();
+}
 return a + b;
 }
