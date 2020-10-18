@@ -1,0 +1,6 @@
+private int sub(int a,int b) {
+	if(a - b < Integer.MIN){
+	     throw new RuntimeException();
+}
+return a - b;
+}
